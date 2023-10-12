@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4f5253;
+}
+
+header a {
+    color: #040607;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+
+header a.active {
+    background-color: #363686;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.55);
+}
